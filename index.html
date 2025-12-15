@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Museum Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Welcome to Your Museum Journey</h1>
+            <p class="subtitle">A personalized exploration of art and culture</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <div class="container">
+            <button class="nav-btn active" onclick="showSection('home')">Home</button>
+            <button class="nav-btn" onclick="showSection('progress')">My Progress</button>
+            <button class="nav-btn" onclick="showSection('request')">Request a Lesson</button>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="container">
+        
+        <!-- HOME SECTION: Museum Grid -->
+        <section id="home-section" class="content-section active">
+            <h2>Explore Museums & Topics</h2>
+            <div id="museum-grid" class="museum-grid">
+                <!-- Museums will be loaded here dynamically -->
+            </div>
+        </section>
+
+        <!-- DETAIL PANEL: Shows when clicking a museum/topic -->
+        <section id="detail-section" class="content-section detail-panel">
+            <button class="back-btn" onclick="showSection('home')">← Back to Museums</button>
+            <div id="detail-content">
+                <!-- Detail content loads here -->
+            </div>
+        </section>
+
+        <!-- LESSON VIEWER: For custom multi-page lessons -->
+        <section id="lesson-section" class="content-section lesson-viewer">
+            <button class="back-btn" onclick="closeLesson()">← Back</button>
+            <div id="lesson-content">
+                <div id="lesson-header"></div>
+                <div id="lesson-page"></div>
+                <div id="lesson-nav" class="lesson-navigation">
+                    <button id="prev-btn" onclick="prevPage()">← Previous</button>
+                    <span id="page-indicator"></span>
+                    <button id="next-btn" onclick="nextPage()">Next →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROGRESS SECTION -->
+        <section id="progress-section" class="content-section">
+            <h2>Your Learning Journey</h2>
+            <div id="progress-content">
+                <div class="progress-stats">
+                    <div class="stat-card">
+                        <h3 id="completed-count">0</h3>
+                        <p>Lessons Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 id="museum-count">0</h3>
+                        <p>Museums Explored</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 id="total-count">0</h3>
+                        <p>Total Lessons Available</p>
+                    </div>
+                </div>
+                
+                <h3>Recent Activity</h3>
+                <div id="recent-activity" class="recent-activity">
+                    <!-- Recent activity will load here -->
+                </div>
+
+                <h3>Continue Your Journey</h3>
+                <div id="in-progress" class="in-progress">
+                    <!-- In-progress items will load here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- REQUEST SECTION -->
+        <section id="request-section" class="content-section">
+            <h2>Request a New Lesson</h2>
+            <p>Is there something specific you'd like to learn about? Let me know and I'll create a lesson for you!</p>
+            <form id="request-form" class="request-form">
+                <div class="form-group">
+                    <label for="request-topic">What would you like to learn about?</label>
+                    <input type="text" id="request-topic" placeholder="e.g., Russian Impressionism, Frida Kahlo's early work..." required>
+                </div>
+                <div class="form-group">
+                    <label for="request-details">Any specific details or questions?</label>
+                    <textarea id="request-details" rows="4" placeholder="Optional: Tell me more about what interests you..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Request</button>
+            </form>
+            <div id="request-success" class="success-message" style="display: none;">
+                <p>✓ Your request has been sent! I'll create this lesson for you soon.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Made with love for your artistic journey ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Load the data and initialize -->
+    <script src="app.js"></script>
+</body>
+</html>

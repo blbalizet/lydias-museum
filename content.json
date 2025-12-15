@@ -1,0 +1,113 @@
+{
+  "museums": [
+    {
+      "id": "denver-art-museum",
+      "name": "Denver Art Museum",
+      "location": "Denver, Colorado",
+      "description": "One of the largest art museums between Chicago and the West Coast, featuring collections from around the world with a strong focus on American Indian art, Western American art, and modern design.",
+      "visible": true,
+      "introVideo": "https://youtu.be/oT3PcdbpRYo",
+      "lessons": [
+        {
+          "id": "pissarro-intro",
+          "title": "Perspectives on Pissarro",
+          "type": "youtube",
+          "description": "Explore the work of Camille Pissarro, the father of Impressionism, through the Denver Art Museum's exhibition.",
+          "url": "https://youtu.be/oT3PcdbpRYo"
+        },
+        {
+          "id": "pissarro-technique",
+          "title": "Pissarro's Brushwork and Technique",
+          "type": "youtube",
+          "description": "A detailed look at how Pissarro created his distinctive impressionist style.",
+          "url": "https://youtu.be/kx-d34fu_i8"
+        },
+        {
+          "id": "impressionism-course",
+          "title": "Complete Impressionism Course",
+          "type": "external",
+          "description": "Deep dive into Impressionism movement, techniques, and major artists. Login will be provided.",
+          "url": "https://www.udemy.com/course/impressionism/",
+          "note": "Ask me for the login credentials when you're ready to start this course!"
+        }
+      ]
+    },
+    {
+      "id": "prado",
+      "name": "Museo del Prado",
+      "location": "Madrid, Spain",
+      "description": "Spain's national art museum, home to one of the world's finest collections of European art. Features masterworks by Velázquez, Goya, El Greco, and other Spanish masters from the 12th to early 20th centuries.",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "prado-intro",
+          "title": "Welcome to the Prado",
+          "type": "custom",
+          "author": "Created for you",
+          "content": [
+            {
+              "type": "text",
+              "text": "The Museo del Prado is one of the most important art museums in the world. Founded in 1819, it houses the former Spanish Royal Collection of art, making it uniquely rich in works by Spanish masters."
+            },
+            {
+              "type": "text",
+              "text": "In this lesson, we'll explore why the Prado matters, what makes it special, and prepare you for a deeper dive into Spanish art."
+            },
+            {
+              "type": "text",
+              "text": "The Prado's collection includes over 8,000 paintings and thousands of sculptures, prints, and drawings. But don't worry—we'll focus on the highlights that matter most!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "louvre",
+      "name": "The Louvre",
+      "location": "Paris, France",
+      "description": "The world's largest and most visited art museum, housed in a historic palace. Home to the Mona Lisa, Venus de Milo, and countless masterpieces from ancient civilizations through the 19th century.",
+      "visible": true,
+      "lessons": []
+    },
+    {
+      "id": "kimbell",
+      "name": "Kimbell Art Museum",
+      "location": "Fort Worth, Texas",
+      "description": "An intimate museum known for its exceptional collection of European masterworks and beautiful architecture by Louis Kahn. Houses works from antiquity through the 20th century.",
+      "visible": true,
+      "lessons": []
+    },
+    {
+      "id": "hermitage",
+      "name": "State Hermitage Museum",
+      "location": "St. Petersburg, Russia",
+      "description": "One of the largest and oldest museums in the world, founded in 1764. Features over 3 million items including the largest collection of paintings in the world.",
+      "visible": false,
+      "lessons": []
+    },
+    {
+      "id": "okeeffe",
+      "name": "Georgia O'Keeffe Museum",
+      "location": "Santa Fe, New Mexico",
+      "description": "The only museum in the United States dedicated to an internationally known woman artist. Features the world's largest collection of O'Keeffe's work.",
+      "visible": false,
+      "lessons": []
+    },
+    {
+      "id": "uffizi",
+      "name": "Uffizi Gallery",
+      "location": "Florence, Italy",
+      "description": "One of the oldest and most famous art museums in the world, housing an unparalleled collection of Renaissance masterworks including Botticelli's Birth of Venus.",
+      "visible": false,
+      "lessons": []
+    },
+    {
+      "id": "frida-kahlo",
+      "name": "Frida Kahlo Museum (Casa Azul)",
+      "location": "Mexico City, Mexico",
+      "description": "The former home of iconic Mexican artist Frida Kahlo, now a museum dedicated to her life and work. The blue house contains her personal belongings and artwork.",
+      "visible": false,
+      "lessons": []
+    }
+  ]
+}
