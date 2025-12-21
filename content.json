@@ -22,7 +22,71 @@
           "description": "A detailed look at how Pissarro created his distinctive impressionist style.",
           "url": "https://youtu.be/kx-d34fu_i8"
         },
-        {
+        {{
+  "id": "pissarro-caribbean-origins",
+  "title": "Camille Pissarro: Caribbean Origins",
+  "type": "custom",
+  "author": "A comprehensive exploration by Bernard",
+  "content": [
+    {
+      "type": "text",
+      "text": "Jacob Abraham Camille Pissarro was born on July 10, 1830, on the island of St. Thomas in what was then the Danish West Indies (now the U.S. Virgin Islands). This Caribbean birthplace profoundly shaped his artistic sensibility in ways that art history has only recently begun to fully appreciate."
+    },
+    {
+      "type": "image",
+      "url": "images/pissarro_camille-autoportrait_1873.jpg",
+      "caption": "Camille Pissarro, Self-Portrait, 1873"
+    },
+    {
+      "type": "text",
+      "text": "His father, Frederick Abraham Gabriel Pissarro, was a Portuguese Jewish merchant who had come to the island to manage his deceased uncle's hardware store. His mother, Rachel Manzano-Pomié, came from a French-Jewish family with roots on St. Thomas and connections to the Dominican Republic. The family's situation was complicated and socially marginal—Frederick had married his uncle's widow, Rachel, a union forbidden under Jewish law. This controversial marriage resulted in the family's ostracism from St. Thomas's small but influential Jewish community."
+    },
+    {
+      "type": "text",
+      "text": "As a consequence, young Camille and his siblings were compelled to attend primary school exclusively for Black students, an experience that would fundamentally shape his worldview. This early immersion in a multiracial society left an indelible mark on Pissarro's art and politics."
+    },
+    {
+      "type": "image",
+      "url": "images/charlotte_amalie_harbour.png",
+      "caption": "Charlotte Amalie Harbor, St. Thomas today—the vibrant Caribbean port where Pissarro grew up"
+    },
+    {
+      "type": "text",
+      "text": "The tropical landscape of St. Thomas—with its brilliant light, lush vegetation, intense colors, and dramatic topography—provided Pissarro's first visual vocabulary. Works like 'A Creek in St. Thomas' and 'Two Women Chatting by the Sea' demonstrate his early fascination with the interplay of intense sunlight on water, the vibrant greens of palm trees, and the dignity of Black working people going about their daily lives."
+    },
+    {
+      "type": "image",
+      "url": "images/a_creek_in_st__thomas_virgin_islands_1985_64_29.jpg",
+      "caption": "Camille Pissarro, A Creek in St. Thomas (Virgin Islands), 1856 - Notice the tropical light and lush Caribbean landscape"
+    },
+    {
+      "type": "text",
+      "text": "The butter-yellow sun low on the horizon, the smoky mauve-pink mountains, and the brown-skinned figures in these early works establish themes that would persist throughout his career: the study of atmospheric effects, the celebration of labor, and an egalitarian approach to subject matter."
+    },
+    {
+      "type": "image",
+      "url": "images/two_women_chatting_by_the_sea_st__thomas_1985_64_30.jpg",
+      "caption": "Camille Pissarro, Two Women Chatting by the Sea, St. Thomas, 1856 - The dignity of daily life in the Caribbean"
+    },
+    {
+      "type": "text",
+      "text": "Recent scholarship, particularly the 2014 Ordrupgaard Museum exhibition 'Meeting on St. Thomas,' has highlighted how Pissarro's Caribbean origins distinguish him from his fellow Impressionists. While Monet, Renoir, and the others were products of European urban and suburban culture, Pissarro brought a fundamentally different visual experience—one formed by tropical light, colonial social structures, and exposure to African diasporic culture."
+    },
+    {
+      "type": "image",
+      "url": "images/mountain-landscape-at-saint-thomas-antilles-unfinished.png",
+      "caption": "Camille Pissarro, Mountain Landscape at Saint Thomas, Antilles (unfinished) - Exploring Caribbean topography"
+    },
+    {
+      "type": "text",
+      "text": "At age 21, Pissarro met Fritz Melbye, a Danish marine and landscape painter who had arrived on St. Thomas from Copenhagen. Melbye became not only Pissarro's first formal teacher but also his close friend and the catalyst for his decision to abandon the family business and commit fully to art. This relationship introduced Pissarro to the practice of plein air (outdoor) painting and to the wider world of contemporary European art."
+    },
+    {
+      "type": "text",
+      "text": "In 1852, Pissarro and Melbye traveled to Venezuela, where they established a studio in Caracas and spent two years painting landscapes, village scenes, and making numerous sketches. This period solidified Pissarro's technical foundation and his commitment to working directly from nature—a practice that would define his entire career. When he finally arrived in Paris in 1855, he brought with him a unique visual vocabulary forged in Caribbean light and a social consciousness shaped by colonial society."
+    }
+  ]
+}
           "id": "impressionism-course",
           "title": "Complete Impressionism Course",
           "type": "external",
