@@ -666,6 +666,48 @@
           "url": "https://youtu.be/NZCE3ot6lf8"
         }
       ]
+    },
+    {
+      "id": "lessons",
+      "name": "Lessons",
+      "location": "Online Courses",
+      "description": "Comprehensive art courses covering techniques, movements, and art history. All your Udemy classes in one convenient place.",
+      "imageUrl": "images/oxford-button-canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "lessons-draw-sketch",
+          "title": "How to Draw and Sketch for Absolute Beginners",
+          "type": "external",
+          "description": "Complete beginner's course in drawing and sketching fundamentals",
+          "url": "https://www.udemy.com/share/101Ztm3@fRgGHEgQChPOWBhpaW4D-HitOhuThTVTI0exGs_gP9jJ1UV_49Yup4nYG7zCswPIdg==/",
+          "note": "This course requires login. Use these credentials (you'll only need to enter them once on this device)"
+        },
+        {
+          "id": "lessons-impressionism",
+          "title": "Complete Impressionism Course",
+          "type": "external",
+          "description": "Comprehensive Udemy course on Impressionist art, history, and techniques",
+          "url": "https://www.udemy.com/course/impressionism/",
+          "note": "This course requires login. Use these credentials (you'll only need to enter them once on this device)"
+        },
+        {
+          "id": "lessons-post-impressionism",
+          "title": "Post-Impressionism: Van Gogh, Cézanne, Gauguin",
+          "type": "external",
+          "description": "Comprehensive Udemy course exploring the major Post-Impressionist masters",
+          "url": "https://www.udemy.com/course/post-impressionism/",
+          "note": "This course requires login. Use these credentials (you'll only need to enter them once on this device)"
+        },
+        {
+          "id": "lessons-surrealism",
+          "title": "Surrealism: Dalí, Miró, and Frida Kahlo",
+          "type": "external",
+          "description": "Comprehensive Udemy course on Surrealist art and artists",
+          "url": "https://www.udemy.com/course/surrealism/",
+          "note": "This course requires login. Use these credentials (you'll only need to enter them once on this device)"
+        }
+      ]
     }
   ]
 }
