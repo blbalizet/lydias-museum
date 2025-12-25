@@ -1,16 +1,13 @@
 // ===== MUSEO BALIZET - Main JavaScript =====
-
 let museumsData = null;
 let currentMuseum = null;
 let currentLesson = null;
 let currentPage = 0;
-
 // ===== INITIALIZE =====
 document.addEventListener('DOMContentLoaded', () => {
     loadContent();
     setupRequestForm();
 });
-
 // ===== LOAD CONTENT FROM JSON =====
 async function loadContent() {
     try {
@@ -27,7 +24,6 @@ async function loadContent() {
             '<p style="color: #383d97; text-align: center; padding: 40px;">Content is loading... If this persists, please check that content.json is in the same folder.</p>';
     }
 }
-
 // ===== RENDER MUSEUMS GRID =====
 function renderMuseums() {
     const grid = document.getElementById('museum-grid');
@@ -35,7 +31,6 @@ function renderMuseums() {
         grid.innerHTML = '<p>No museums available yet.</p>';
         return;
     }
-
     const visibleMuseums = museumsData.museums.filter(m => m.visible !== false);
     
     grid.innerHTML = visibleMuseums.map(museum => {
@@ -55,18 +50,14 @@ function renderMuseums() {
         `;
     }).join('');
 }
-
 // ===== SHOW MUSEUM DETAIL =====
 function showMuseum(museumId) {
     currentMuseum = museumsData.museums.find(m => m.id === museumId);
     if (!currentMuseum) return;
-
     // Track visit
     trackActivity('visited', museumId, currentMuseum.name);
-
     const detailContent = document.getElementById('detail-content');
     const lessons = currentMuseum.lessons || [];
-
     let html = `
         <div class="detail-header">
             <h2>${currentMuseum.name}</h2>
@@ -74,7 +65,6 @@ function showMuseum(museumId) {
             ${currentMuseum.description ? `<p style="margin-top: 20px;">${currentMuseum.description}</p>` : ''}
         </div>
     `;
-
     // Intro video if exists
     if (currentMuseum.introVideo) {
         html += `
@@ -84,7 +74,6 @@ function showMuseum(museumId) {
             </div>
         `;
     }
-
     // Lessons
     if (lessons.length > 0) {
         html += `<div class="lesson-list"><h3>Explore</h3>`;
@@ -103,21 +92,16 @@ function showMuseum(museumId) {
     } else {
         html += `<p style="font-style: italic; color: #666;">More content coming soon!</p>`;
     }
-
     detailContent.innerHTML = html;
     showSection('detail');
 }
-
 // ===== OPEN LESSON =====
 function openLesson(lessonId) {
     const lesson = currentMuseum.lessons.find(l => l.id === lessonId);
     if (!lesson) return;
-
     currentLesson = lesson;
     currentPage = 0;
-
     trackActivity('started', lessonId, lesson.title);
-
     if (lesson.type === 'youtube') {
         showYouTubeLesson(lesson);
     } else if (lesson.type === 'external') {
@@ -126,7 +110,6 @@ function openLesson(lessonId) {
         showCustomLesson(lesson);
     }
 }
-
 // ===== SHOW YOUTUBE LESSON =====
 function showYouTubeLesson(lesson) {
     const content = `
@@ -143,7 +126,6 @@ function showYouTubeLesson(lesson) {
     document.getElementById('detail-content').innerHTML = content;
     showSection('detail');
 }
-
 // ===== SHOW EXTERNAL LESSON =====
 function showExternalLesson(lesson) {
     const content = `
@@ -172,7 +154,6 @@ function showExternalLesson(lesson) {
     document.getElementById('detail-content').innerHTML = content;
     showSection('detail');
 }
-
 // ===== SHOW CUSTOM MULTI-PAGE LESSON =====
 function showCustomLesson(lesson) {
     document.getElementById('lesson-header').innerHTML = `
@@ -183,18 +164,46 @@ function showCustomLesson(lesson) {
     renderLessonPage();
     showSection('lesson');
 }
-
 // ===== RENDER LESSON PAGE =====
 function renderLessonPage() {
-    if (!currentLesson || !currentLesson.content) return;
+    // Support both old structure (content array) and new structure (pages array)
+    const pages = currentLesson.pages || currentLesson.content;
     
-    const content = currentLesson.content;
-    const totalPages = content.length;
-    const pageData = content[currentPage];
+    if (!currentLesson || !pages) return;
+    
+    const totalPages = pages.length;
+    const pageData = pages[currentPage];
     
     let html = '';
     
-    if (pageData.type === 'text') {
+    // NEW STRUCTURE: Rich pages with title, content, images, and videos
+    if (pageData.title || pageData.content || pageData.imageUrl || pageData.videoUrl) {
+        // Page title
+        if (pageData.title) {
+            html += `<h3 style="color: #383d97; margin-bottom: 20px;">${pageData.title}</h3>`;
+        }
+        
+        // Page content (text)
+        if (pageData.content) {
+            html += `<div class="lesson-text">${pageData.content}</div>`;
+        }
+        
+        // Page image
+        if (pageData.imageUrl) {
+            html += `
+                <div class="lesson-image" style="margin-top: 20px;">
+                    <img src="${pageData.imageUrl}" alt="${pageData.title || ''}" style="max-width: 100%; height: auto; border-radius: 8px;">
+                </div>
+            `;
+        }
+        
+        // Page video
+        if (pageData.videoUrl) {
+            html += `<div style="margin-top: 20px;">${embedYouTube(pageData.videoUrl)}</div>`;
+        }
+    }
+    // OLD STRUCTURE: Type-based pages
+    else if (pageData.type === 'text') {
         html = `<div class="lesson-text">${pageData.text}</div>`;
     } else if (pageData.type === 'image') {
         html = `
@@ -210,12 +219,6 @@ function renderLessonPage() {
         `;
     }
     
-    document.getElementById('lesson-page').innerHTML = html;
-    document.getElementById('page-indicator').textContent = `Page ${currentPage + 1} of ${totalPages}`;
-    
-    document.getElementById('prev-btn').disabled = currentPage === 0;
-    document.getElementById('next-btn').disabled = currentPage === totalPages - 1;
-    
     // Show complete button on last page
     if (currentPage === totalPages - 1) {
         html += `
@@ -223,28 +226,30 @@ function renderLessonPage() {
                 <button class="submit-btn" onclick="markComplete('${currentLesson.id}')">Mark as Complete</button>
             </div>
         `;
-        document.getElementById('lesson-page').innerHTML = html;
     }
+    
+    document.getElementById('lesson-page').innerHTML = html;
+    document.getElementById('page-indicator').textContent = `Page ${currentPage + 1} of ${totalPages}`;
+    
+    document.getElementById('prev-btn').disabled = currentPage === 0;
+    document.getElementById('next-btn').disabled = currentPage === totalPages - 1;
 }
-
 function nextPage() {
-    if (currentLesson && currentPage < currentLesson.content.length - 1) {
+    const pages = currentLesson.pages || currentLesson.content;
+    if (currentLesson && currentPage < pages.length - 1) {
         currentPage++;
         renderLessonPage();
     }
 }
-
 function prevPage() {
     if (currentPage > 0) {
         currentPage--;
         renderLessonPage();
     }
 }
-
 function closeLesson() {
     showMuseum(currentMuseum.id);
 }
-
 // ===== EMBED YOUTUBE VIDEO =====
 function embedYouTube(url) {
     const videoId = extractYouTubeId(url);
@@ -261,13 +266,11 @@ function embedYouTube(url) {
         </div>
     `;
 }
-
 function extractYouTubeId(url) {
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
     const match = url.match(regExp);
     return (match && match[2].length === 11) ? match[2] : null;
 }
-
 // ===== NAVIGATION =====
 function showSection(sectionName) {
     document.querySelectorAll('.content-section').forEach(section => {
@@ -286,22 +289,18 @@ function showSection(sectionName) {
         updateProgressDisplay();
     }
 }
-
 // ===== PROGRESS TRACKING =====
 function getProgress() {
     const stored = localStorage.getItem('museoBalizet_progress');
     return stored ? JSON.parse(stored) : { completed: [], activity: [] };
 }
-
 function saveProgress(progress) {
     localStorage.setItem('museoBalizet_progress', JSON.stringify(progress));
 }
-
 function isLessonCompleted(lessonId) {
     const progress = getProgress();
     return progress.completed.includes(lessonId);
 }
-
 function markComplete(lessonId) {
     const progress = getProgress();
     if (!progress.completed.includes(lessonId)) {
@@ -315,7 +314,6 @@ function markComplete(lessonId) {
         }
     }
 }
-
 function trackActivity(action, id, title) {
     const progress = getProgress();
     progress.activity = progress.activity || [];
@@ -328,7 +326,6 @@ function trackActivity(action, id, title) {
     progress.activity = progress.activity.slice(0, 20); // Keep last 20
     saveProgress(progress);
 }
-
 function updateProgressStats() {
     if (!museumsData) return;
     
@@ -340,7 +337,6 @@ function updateProgressStats() {
     document.getElementById('museum-count').textContent = visitedMuseums;
     document.getElementById('total-count').textContent = totalLessons;
 }
-
 function updateProgressDisplay() {
     const progress = getProgress();
     const recentDiv = document.getElementById('recent-activity');
@@ -357,7 +353,6 @@ function updateProgressDisplay() {
         </div>
     `).join('');
 }
-
 // ===== REQUEST FORM =====
 function setupRequestForm() {
     document.getElementById('request-form').addEventListener('submit', (e) => {
@@ -379,7 +374,6 @@ function setupRequestForm() {
         }, 5000);
     });
 }
-
 // ===== UTILITY =====
 function getLessonTypeLabel(type) {
     const labels = {
