@@ -1,0 +1,528 @@
+{
+  "museums": [
+    {
+      "id": "denver",
+      "name": "Denver Art Museum",
+      "location": "Denver, Colorado",
+      "description": "Founded in 1893 as the Denver Artists' Club, the Denver Art Museum has evolved into a major institution known for its extensive Indigenous Arts of North America collection, global art holdings, and distinctive architecture by Daniel Libeskind (originally designed for One World Trade Center). A cultural hub between Chicago and the West Coast, focusing on creativity and community learning.",
+      "imageUrl": "images/dam-enormous_cantilever_canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "denver-what-weve-been-people",
+          "title": "What We've Been People",
+          "type": "external",
+          "description": "Contemporary photography exhibition exploring Indigenous identity and experience",
+          "url": "https://www.denverartmuseum.org/en/exhibitions/what-weve-been-people"
+        },
+        {
+          "id": "denver-arts-asia",
+          "title": "Arts of Asia Galleries",
+          "type": "external",
+          "description": "Explore Buddhist art, including the Western Paradise Taima Mandala and Bodhisattva Guanyin",
+          "url": "https://www.denverartmuseum.org/en/exhibitions/arts-asia-galleries"
+        },
+        {
+          "id": "denver-andrea-carlson",
+          "title": "Andrea Carlson: Contemporary Indigenous Art",
+          "type": "external",
+          "description": "Works exploring Indigenous identity through contemporary painting including 'Cannibal Ferox' and 'The Tempest'",
+          "url": "https://www.denverartmuseum.org/en/exhibitions/andrea-carlson"
+        },
+        {
+          "id": "denver-painting-andes",
+          "title": "Painting the Andes",
+          "type": "external",
+          "description": "Colonial and post-colonial art from the Andes, featuring religious paintings and cultural fusion",
+          "url": "https://www.denverartmuseum.org/en/exhibitions/painting-andes"
+        },
+        {
+          "id": "denver-latin-american-century",
+          "title": "A Century of Art in Latin America",
+          "type": "external",
+          "description": "Contemporary Latin American art including works by Diego Rivera, Carlos Mérida, and Tessa Mars",
+          "url": "https://www.denverartmuseum.org/en/exhibitions/century-art-latin-america"
+        },
+        {
+          "id": "denver-photography-collection",
+          "title": "Photography Collection",
+          "type": "external",
+          "description": "Browse the museum's extensive photography holdings",
+          "url": "https://www.denverartmuseum.org/en/search/collections?f%5B0%5D=display_collection%3A3098"
+        },
+        {
+          "id": "denver-architecture-collection",
+          "title": "Architecture and Design Collection",
+          "type": "external",
+          "description": "Explore architectural works and design objects",
+          "url": "https://www.denverartmuseum.org/en/search/collections?f%5B0%5D=display_collection%3A3096"
+        },
+        {
+          "id": "denver-latin-american-collection",
+          "title": "Latin American Art Collection",
+          "type": "external",
+          "description": "Browse works from across Latin America",
+          "url": "https://www.denverartmuseum.org/en/search/collections?f%5B0%5D=display_collection%3A3102"
+        },
+        {
+          "id": "denver-european-american-collection",
+          "title": "European and American Art Before 1900",
+          "type": "external",
+          "description": "Classic works from European and American traditions",
+          "url": "https://www.denverartmuseum.org/en/search/collections?f%5B0%5D=display_collection%3A3103"
+        }
+      ]
+    },
+    {
+      "id": "prado",
+      "name": "Museo del Prado",
+      "location": "Madrid, Spain",
+      "description": "Spain's premier art museum, home to masterworks by Velázquez, Goya, El Greco, and more. Explore Spanish royal collections and European masterpieces.",
+      "imageUrl": "images/prado-las_meninas_button_velazquez-canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "prado-intro-video",
+          "title": "Introduction to the Prado",
+          "type": "youtube",
+          "description": "Overview of the museum and its collections",
+          "url": "https://youtu.be/v-J_VAU1aeY"
+        },
+        {
+          "id": "prado-queen-isabella",
+          "title": "The Female Perspective III: Queen Isabella Farnese",
+          "type": "external",
+          "description": "Exhibition exploring the art patronage and collecting of Queen Isabella Farnese, highlighting women's roles in shaping museum collections",
+          "url": "https://www.museodelprado.es/en/whats-on/exhibition/the-female-perspective-iii-queen-isabella-farnese/3f7ed688-956b-487f-957b-6a377fbeffd1"
+        },
+        {
+          "id": "prado-capilla-herrera",
+          "title": "Capilla Herrera",
+          "type": "external",
+          "description": "The Prado's chapel space featuring devotional art and religious works",
+          "url": "https://www.museodelprado.es/museo/capilla-herrera"
+        },
+        {
+          "id": "prado-caravaggio-ecce-homo",
+          "title": "The Lost Caravaggio: Ecce Homo Unveiled",
+          "type": "youtube",
+          "description": "Documentary on the recently discovered Caravaggio masterpiece (1606-1609). The Prado's collection connects to other Caravaggio works including the Kimbell's 'Judith Beheading Holofernes'",
+          "url": "https://youtu.be/70pBGY97oI4"
+        },
+        {
+          "id": "prado-caravaggio-montage",
+          "title": "Ecce Homo Exhibition Montage",
+          "type": "youtube",
+          "description": "Behind-the-scenes look at mounting the Caravaggio exhibition",
+          "url": "https://youtu.be/35UlfFM_nTY"
+        },
+        {
+          "id": "prado-caravaggio-power-of-art",
+          "title": "Power of Art: Caravaggio",
+          "type": "youtube",
+          "description": "Dramatic documentary exploring Caravaggio's revolutionary art and tumultuous life",
+          "url": "https://youtu.be/CX_KWIvIVM8"
+        },
+        {
+          "id": "prado-mengs",
+          "title": "Anton Raphael Mengs (1728-1779)",
+          "type": "external",
+          "description": "Exhibition on the German Neoclassical painter who worked extensively for Spanish royalty",
+          "url": "https://www.museodelprado.es/en/whats-on/exhibition/anton-raphael-mengs-1728-1779/4be2964e-3169-c21d-52ec-9c6caf24cbfb"
+        },
+        {
+          "id": "prado-mengs-video",
+          "title": "Mengs Exhibition Montage",
+          "type": "youtube",
+          "description": "Short visual tour of the Mengs exhibition",
+          "url": "https://youtu.be/UQt0TsyCqhs"
+        },
+        {
+          "id": "prado-munoz-degrain",
+          "title": "Antonio Muñoz Degrain (1840-1924)",
+          "type": "external",
+          "description": "Spanish landscape and historical painter known for dramatic light effects",
+          "url": "https://www.museodelprado.es/en/whats-on/exhibition/the-painter-antonio-muoz-degrain-1840---1924/f55650bd-c397-4266-f8b2-22e4bd9c3a93"
+        },
+        {
+          "id": "prado-munoz-degrain-instagram",
+          "title": "Muñoz Degrain: The Lovers of Teruel",
+          "type": "youtube",
+          "description": "Instagram session exploring 'The Lovers of Teruel' (1884) and landscape works",
+          "url": "https://www.museodelprado.es/en/whats-on/multimedia/weekly-sessions-in-english-antonio-muoz-degrain/2c84a270-824a-4e05-beae-9a1e4ef3ec23"
+        },
+        {
+          "id": "prado-brueghel-collection",
+          "title": "Jan Brueghel the Elder Collection",
+          "type": "external",
+          "description": "Browse works by 'Velvet' Brueghel, master of detailed landscapes and still lifes",
+          "url": "https://www.museodelprado.es/en/the-collection/art-works?cidoc:p14_carried_out_by@@@pm:author@@@ecidoc:p131_E82_p102_has_title=Brueghel%20the%20Elder,%20Jan%20(Jan%20%27Velvet%27%20Brueghel)@en"
+        },
+        {
+          "id": "prado-rubens-brueghel",
+          "title": "Rubens and Brueghel Collaborations",
+          "type": "external",
+          "description": "Collaborative works between Peter Paul Rubens and Jan Brueghel, including 'The Sense of Hearing'",
+          "url": "https://www.museodelprado.es/en/the-collection/art-works?cidoc:p14_carried_out_by@@@pm:author@@@ecidoc:p131_E82_p102_has_title=Brueghel%20the%20Elder,%20Jan%20(Jan%20%27Velvet%27%20Brueghel)@en&cidoc:p14_carried_out_by@@@pm:author@@@ecidoc:p131_E82_p102_has_title=Rubens,%20Peter%20Paul@en"
+        },
+        {
+          "id": "prado-velazquez-collection",
+          "title": "Velázquez Collection",
+          "type": "external",
+          "description": "Explore the Prado's unmatched collection of Diego Velázquez, including Las Meninas",
+          "url": "https://www.museodelprado.es/en/the-collection/artist/velazquez-diego-rodriguez-de-silva-y/434337e9-77e4-4597-a962-ef47304d930d"
+        },
+        {
+          "id": "prado-velazquez-crucified-christ",
+          "title": "The Crucified Christ by Velázquez",
+          "type": "youtube",
+          "description": "Analysis of Velázquez's powerful religious masterwork",
+          "url": "https://youtu.be/uxtwKVBtIIM"
+        },
+        {
+          "id": "prado-las-meninas-analysis",
+          "title": "Las Meninas: Main Figures and Space",
+          "type": "youtube",
+          "description": "Instagram session breaking down Velázquez's compositional genius in Las Meninas (1656)",
+          "url": "https://www.museodelprado.es/en/whats-on/multimedia/weekly-sessions-in-english-main-figures-and-space/a0542137-37c9-45a4-ac8d-19017b508706"
+        },
+        {
+          "id": "prado-timeline",
+          "title": "Prado Timeline Explorer",
+          "type": "external",
+          "description": "Interactive timeline connecting artworks to historical events and monarchs",
+          "url": "https://www.museodelprado.es/en/the-collection/timeline"
+        }
+      ]
+    },
+    {
+      "id": "kimbell",
+      "name": "Kimbell Art Museum",
+      "location": "Fort Worth, Texas",
+      "description": "Intimate museum featuring European masterworks in Louis Kahn's iconic architecture. Home to works by Caravaggio, Monet, Matisse, and more.",
+      "imageUrl": "images/matisse-kimball-asia-canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "kimbell-matisse-asia",
+          "title": "Matisse: L'Asie (1946)",
+          "type": "external",
+          "description": "Explore Matisse's vibrant Fauvist masterpiece celebrating color and form",
+          "url": "https://kimbellart.org/collection/apg-199301"
+        },
+        {
+          "id": "kimbell-matisse-documentary",
+          "title": "Matisse: Life and Work",
+          "type": "youtube",
+          "description": "48-minute documentary exploring Matisse's artistic journey and Fauvism",
+          "url": "https://youtu.be/bPcVAm3y0BA"
+        },
+        {
+          "id": "kimbell-monet-exhibition",
+          "title": "Claude Monet Exhibition",
+          "type": "external",
+          "description": "The Kimbell's Monet holdings including Water Lilies and Weeping Willow. Cross-reference with the Impressionism course for deeper context.",
+          "url": "https://kimbellart.org/exhibition/monet"
+        },
+        {
+          "id": "kimbell-monet-documentary",
+          "title": "How Claude Monet Transformed French Painting",
+          "type": "youtube",
+          "description": "Documentary on Monet's revolutionary approach to light and color",
+          "url": "https://youtu.be/hVQSZ7Rvs2c"
+        }
+      ]
+    },
+    {
+      "id": "americas",
+      "name": "Museo de las Américas",
+      "location": "San Juan, Puerto Rico",
+      "description": "Founded in 1992, dedicated to presenting the history and cultures of the American continent with special emphasis on Puerto Rico. Housed in the historic Cuartel de Ballajá (1854-1864).",
+      "imageUrl": "images/museo-de-las-americas-canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "americas-intro-video",
+          "title": "Museo de las Américas Introduction",
+          "type": "youtube",
+          "description": "Quick overview of the museum and its mission",
+          "url": "https://youtu.be/Arlry0-s-NE"
+        },
+        {
+          "id": "americas-bloomberg",
+          "title": "Supporting Art and Community in Puerto Rico",
+          "type": "youtube",
+          "description": "Bloomberg Philanthropies feature on community engagement",
+          "url": "https://youtu.be/6QMO7ESGWs0"
+        },
+        {
+          "id": "americas-tour",
+          "title": "Old San Juan's Cultural Jewel",
+          "type": "youtube",
+          "description": "Amateur walking tour of the museum",
+          "url": "https://youtu.be/MFfaDmURoyI"
+        },
+        {
+          "id": "americas-popular-arts",
+          "title": "Las Artes Populares en Las Américas",
+          "type": "external",
+          "description": "Exhibition exploring traditional artistic expressions from across the Americas, highlighting cultural diversity rooted in Indigenous, European, African, and Asian influences",
+          "url": "https://www.museolasamericas.org/artes-populares/"
+        },
+        {
+          "id": "americas-indigenous",
+          "title": "El Indígena de Las Américas",
+          "type": "external",
+          "description": "Explores Indigenous history and resilience, featuring Taíno culture and hyperrealistic sculptures by Felipe Lettersten. Puerto Rico holds evidence of human presence dating back 6,200 years.",
+          "url": "https://www.museolasamericas.org/el-indigena-de-las-americas/"
+        },
+        {
+          "id": "americas-taino-video-1",
+          "title": "5 Indigenous Taíno Sites in Puerto Rico",
+          "type": "youtube",
+          "description": "Exploring archaeological sites and cultural heritage",
+          "url": "https://youtu.be/WMl84lOZwK4"
+        },
+        {
+          "id": "americas-taino-video-2",
+          "title": "Rediscovering the Taíno People",
+          "type": "youtube",
+          "description": "Documentary on Taíno history and cultural survival",
+          "url": "https://youtu.be/E-098wNpY6A"
+        },
+        {
+          "id": "americas-african-heritage",
+          "title": "La Herencia Africana",
+          "type": "external",
+          "description": "Explores the foundational role of African peoples in shaping Puerto Rico, from slavery's tragic history to extraordinary cultural contributions. Highlights West and Central African traditions.",
+          "url": "https://www.museolasamericas.org/la-herencia-africana/"
+        },
+        {
+          "id": "americas-santos-de-palo",
+          "title": "Santos de Palo de Puerto Rico",
+          "type": "external",
+          "description": "Wooden religious sculptures rooted in Spanish colonial catechization, now a uniquely Puerto Rican artistic genre. Collection donated by Ricardo E. Alegría Gallardo and Carmen Ana Pons Castañer.",
+          "url": "https://www.museolasamericas.org/santos-de-palo-de-puerto-rico/"
+        },
+        {
+          "id": "americas-santos-video-1",
+          "title": "Dale Click a la Cultura: Santos de Palo Contemporáneos",
+          "type": "youtube",
+          "description": "Contemporary interpretations of the santos tradition",
+          "url": "https://youtu.be/FgBWKJA_-Ak"
+        },
+        {
+          "id": "americas-santos-conference",
+          "title": "Santos de palo puertorriqueños: devoción, tradición, arte y cultura",
+          "type": "youtube",
+          "description": "In-depth conference on the santos tradition (long but comprehensive)",
+          "url": "https://youtube.com/live/kQv-172Vctc"
+        },
+        {
+          "id": "americas-reyes-magos",
+          "title": "Reyes Magos en Carruaje - Artisan Wilzen Pérez",
+          "type": "youtube",
+          "description": "In Europe the Three Kings travel by camel, but in Puerto Rico they ride in legendary artisan carts",
+          "url": "https://youtu.be/5t4fBJ7xucM"
+        },
+        {
+          "id": "americas-conquest-colonization",
+          "title": "Conquest and Colonization",
+          "type": "external",
+          "description": "Six galleries exploring how Taíno, African, and Spanish cultures intersected to form Puerto Rican identity. Examines evangelization, colonial architecture, and strategic importance that led to attacks by Dutch, French, and English forces.",
+          "url": "https://www.museolasamericas.org/conquista-y-colonizacion/"
+        },
+        {
+          "id": "americas-el-morro",
+          "title": "El Morro: Digital Reconstruction",
+          "type": "youtube",
+          "description": "History including digital geography and topography of nearby El Morro fortress (some minor inaccuracies but impressive digital recreations)",
+          "url": "https://youtu.be/cXIXl21Lg1I"
+        }
+      ]
+    },
+    {
+      "id": "louvre",
+      "name": "The Louvre",
+      "location": "Paris, France",
+      "description": "The world's most visited museum, home to the Mona Lisa, Venus de Milo, and countless masterworks spanning human history.",
+      "imageUrl": "images/louvre-pyramid-canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "louvre-placeholder",
+          "title": "Coming Soon: Louvre Masterworks",
+          "type": "external",
+          "description": "Lessons on Mona Lisa, Venus de Milo, Wedding at Cana, and more masterpieces will be added soon!",
+          "url": "https://www.louvre.fr/en"
+        }
+      ]
+    },
+    {
+      "id": "impressionism",
+      "name": "Impressionism",
+      "location": "Art Movement • 1860s-1880s",
+      "description": "Revolutionary movement that broke from academic tradition, capturing fleeting moments of light and color en plein air. Led by Monet, Renoir, Pissarro, and others.",
+      "imageUrl": "images/impressionism-grande_jatte_georges_seurat-1884.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "impressionism-udemy",
+          "title": "Complete Impressionism Course",
+          "type": "external",
+          "description": "Comprehensive Udemy course on Impressionist art, history, and techniques",
+          "url": "https://www.udemy.com/course/impressionism/",
+          "note": "This course requires login. Use these credentials (you'll only need to enter them once on this device)"
+        },
+        {
+          "id": "impressionism-starry-night",
+          "title": "Vincent Van Gogh's The Starry Night",
+          "type": "youtube",
+          "description": "Great Art Explained: Deep dive into Van Gogh's masterpiece",
+          "url": "https://youtu.be/wk9L1N9bRRE"
+        },
+        {
+          "id": "impressionism-water-lilies",
+          "title": "Monet's Water Lilies",
+          "type": "youtube",
+          "description": "Great Art Explained: Understanding Monet's garden paintings",
+          "url": "https://youtu.be/fd-Me3EBGYY"
+        },
+        {
+          "id": "impressionism-manet",
+          "title": "The Father of Impressionism: Édouard Manet",
+          "type": "youtube",
+          "description": "Great Art Explained: How Manet revolutionized painting",
+          "url": "https://youtu.be/dHEOSQjvIzc"
+        }
+      ]
+    },
+    {
+      "id": "post-impressionism",
+      "name": "Post-Impressionism",
+      "location": "Art Movement • 1880s-1900s",
+      "description": "Artists who built on Impressionism but pushed toward greater expression, structure, or symbolism. Includes Van Gogh, Cézanne, Gauguin, and Seurat.",
+      "imageUrl": "images/post-impressionism-starry_night-canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "post-impressionism-udemy",
+          "title": "Post-Impressionism: Van Gogh, Cézanne, Gauguin",
+          "type": "external",
+          "description": "Comprehensive Udemy course exploring the major Post-Impressionist masters",
+          "url": "https://www.udemy.com/course/post-impressionism/",
+          "note": "This course requires login. Use these credentials (you'll only need to enter them once on this device)"
+        },
+        {
+          "id": "post-impressionism-cezanne-lecture",
+          "title": "Reflections on Cézanne",
+          "type": "youtube",
+          "description": "In-depth lecture on Cézanne's artistic philosophy",
+          "url": "https://youtu.be/eKASbQTN_YI"
+        },
+        {
+          "id": "post-impressionism-cezanne-bathers",
+          "title": "Paul Cézanne: The Father of Modern Art",
+          "type": "youtube",
+          "description": "National Gallery lecture on Cézanne's 'The Bathers'",
+          "url": "https://youtu.be/MFdliclkdlE"
+        },
+        {
+          "id": "post-impressionism-gauguin",
+          "title": "The Life of Paul Gauguin",
+          "type": "youtube",
+          "description": "From fraught friendships to French Polynesia",
+          "url": "https://youtu.be/y8lMRTJ5RAM"
+        },
+        {
+          "id": "post-impressionism-seurat",
+          "title": "Georges Seurat: Pointillism and Color Theory",
+          "type": "youtube",
+          "description": "Great Art Explained: Understanding Seurat's scientific approach",
+          "url": "https://youtu.be/AJr2T1ko3Is"
+        }
+      ]
+    },
+    {
+      "id": "surrealism",
+      "name": "Surrealism",
+      "location": "Art Movement • 1920s-1960s",
+      "description": "Movement exploring dreams, the unconscious, and irrational juxtapositions. Led by Dalí, Miró, Magritte, and Frida Kahlo.",
+      "imageUrl": "images/surrealism-dali-canva.png",
+      "visible": true,
+      "lessons": [
+        {
+          "id": "surrealism-udemy",
+          "title": "Surrealism: Dalí, Miró, and Frida Kahlo",
+          "type": "external",
+          "description": "Comprehensive Udemy course on Surrealist art and artists",
+          "url": "https://www.udemy.com/course/surrealism/",
+          "note": "This course requires login. Use these credentials (you'll only need to enter them once on this device)"
+        },
+        {
+          "id": "surrealism-case-for",
+          "title": "The Case for Surrealism",
+          "type": "youtube",
+          "description": "Philosophical exploration of why Surrealism matters",
+          "url": "https://youtu.be/wtPBOwE0Qn0"
+        },
+        {
+          "id": "surrealism-crash-course",
+          "title": "Dada, Surrealism, and Symbolism",
+          "type": "youtube",
+          "description": "Crash Course Theater #37 - Great for students and adults alike!",
+          "url": "https://youtu.be/Fx0Z6y2HmlM"
+        },
+        {
+          "id": "surrealism-dali-documentary",
+          "title": "Salvador Dalí: Master of Surrealism",
+          "type": "youtube",
+          "description": "Full biographical documentary",
+          "url": "https://youtu.be/O0cnqAEKRK0"
+        },
+        {
+          "id": "surrealism-miro",
+          "title": "Joan Miró: Painter of Another Reality",
+          "type": "youtube",
+          "description": "Creator of a theatre of dreams",
+          "url": "https://youtu.be/leZ8ig8SuyI"
+        },
+        {
+          "id": "surrealism-frida-documentary",
+          "title": "Frida Kahlo: A Life of Pain",
+          "type": "youtube",
+          "description": "Biographical documentary on Frida's life and art",
+          "url": "https://youtu.be/vEt0f2xzB54"
+        },
+        {
+          "id": "surrealism-frida-two-fridas",
+          "title": "Frida Kahlo's 'The Two Fridas'",
+          "type": "youtube",
+          "description": "Great Art Explained: Deep analysis of one masterwork",
+          "url": "https://youtu.be/rxKR2cHmlPY"
+        },
+        {
+          "id": "surrealism-frida-what-painting-tells-us",
+          "title": "What This Painting Tells Us About Frida Kahlo",
+          "type": "youtube",
+          "description": "Exploring biography through art",
+          "url": "https://youtu.be/Vigep1nYT6o"
+        },
+        {
+          "id": "surrealism-dali-great-art",
+          "title": "Salvador Dalí: Great Art Explained",
+          "type": "youtube",
+          "description": "Analysis of Dalí's most famous works",
+          "url": "https://youtu.be/gA0RAPh2ZgU"
+        },
+        {
+          "id": "surrealism-magritte",
+          "title": "René Magritte: Great Art Explained",
+          "type": "youtube",
+          "description": "Understanding Magritte's philosophical paintings",
+          "url": "https://youtu.be/NZCE3ot6lf8"
+        }
+      ]
+    }
+  ]
+}
