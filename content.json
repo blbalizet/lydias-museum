@@ -493,11 +493,95 @@
       "visible": true,
       "lessons": [
         {
-          "id": "louvre-placeholder",
-          "title": "Coming Soon: Louvre Masterworks",
+          "id": "louvre-dogs-tour",
+          "title": "Dogs in Art: A Louvre Walk-Through",
+          "type": "youtube",
+          "description": "A fun journey through the Louvre counting all the dogs in the museum's paintings",
+          "url": "https://youtu.be/sGcNV2-1QRQ"
+        },
+        {
+          "id": "louvre-mona-lisa-heist-wiki",
+          "title": "The 1911 Mona Lisa Heist: Vincenzo Peruggia",
           "type": "external",
-          "description": "Lessons on Mona Lisa, Venus de Milo, Wedding at Cana, and more masterpieces will be added soon!",
-          "url": "https://www.louvre.fr/en"
+          "description": "The incredible true story of how the Mona Lisa was stolen from the Louvre in 1911 and missing for over two years",
+          "url": "https://en.wikipedia.org/wiki/Vincenzo_Peruggia"
+        },
+        {
+          "id": "louvre-mona-lisa-heist-video",
+          "title": "The Mona Lisa Heist: Digital Recreation",
+          "type": "youtube",
+          "description": "Digital recreation of the audacious 1911 theft of the world's most famous painting",
+          "url": "https://www.youtube.com/watch?v=h0ZMhhquL8c"
+        },
+        {
+          "id": "louvre-comprehensive-tour",
+          "title": "The Louvre: Comprehensive Museum Tour",
+          "type": "youtube",
+          "description": "Complete tour of the Louvre, the largest museum in the world",
+          "url": "https://youtu.be/s576Oq9wAQk"
+        },
+        {
+          "id": "louvre-ecce-homo-custom",
+          "title": "Ecce Homo: Behold the Man",
+          "type": "custom",
+          "description": "Explore how artists from the Renaissance to modern times depicted the moment Pontius Pilate presented Christ to the crowd, declaring 'Ecce Homo' - 'Behold the Man'",
+          "pages": [
+            {
+              "title": "Ecce Homo: The Scene and Its Meaning",
+              "content": "\"Ecce Homo\" - \"Behold the Man\" - are among the most dramatic words in Christian scripture. Spoken by Pontius Pilate as he presented the scourged Jesus to the Jerusalem crowd, these two Latin words have inspired centuries of artistic interpretation.\n\nThe scene appears in only one Gospel: John, Chapter 19, Verse 5. During Jesus's trial, Pilate finds no legal fault in him. Hoping to satisfy the crowd's anger without ordering an execution, Pilate has Jesus scourged and mocked by soldiers who dress him in a purple robe and crown of thorns. Then Pilate brings him out, declaring \"Ecce Homo.\"\n\nPilate's words work on multiple levels. Politically, he presents a pitiable figure, hoping this will end the matter. But theologically, John's Gospel invests the moment with profound irony: Pilate unknowingly presents not just a beaten prisoner, but the very embodiment of humanity—the Son of God incarnate, who willingly bears suffering for mankind.\n\nThe crowd's response—\"Crucify him!\"—underscores humanity's rejection of this revelation. Artists have grappled with this scene for centuries, finding in it endless opportunities to explore themes of suffering, dignity, injustice, and divine revelation.",
+              "imageUrl": "images/ecce-homo-louvre-anonyme.JPG"
+            },
+            {
+              "title": "The Biblical Text",
+              "content": "The Ecce Homo moment comes during Jesus's trial before Pontius Pilate. The Jewish authorities have handed Jesus over, demanding execution. Pilate, finding no legal fault, tries to release him by having him scourged—hoping the sight will satisfy the crowd.\n\n**John 19:4-5 (English, ESV):**\n\nPilate went out again and said to them, \"See, I am bringing him out to you that you may know that I find no guilt in him.\" So Jesus came out, wearing the crown of thorns and the purple robe. Pilate said to them, \"Behold the man!\"\n\n**John 19:4-5 (Latin, Vulgate):**\n\nExivit iterum Pilatus foras, et dicit eis: \"Ecce adduco vobis eum foras, ut cognoscatis quia nullam invenio in eo causam.\" Exivit ergo Iesus portans coronam spineam et purpureum vestimentum. Et dicit eis: \"Ecce homo!\"\n\nThe soldiers have just mocked Jesus, dressing him in royal purple and placing a crown of thorns on his head. Pilate presents this figure to the crowd, hoping pity will prevail. Instead, they cry \"Crucify him!\" (John 19:6).",
+              "imageUrl": "images/ecce-homo-louvre-anonyme.JPG"
+            },
+            {
+              "title": "The Louvre's Ecce Homo: Spanish Devotional Art",
+              "content": "The Louvre's small devotional painting presents Christ at this poignant moment. Created by an anonymous artist of the Spanish School in the 16th century, it exemplifies the intense emotionalism of Spanish religious art during this period.\n\nChrist appears half-length, crowned with thorns, draped in a pink-purple cloak, and bound at the wrists. The painting is also titled \"Christ aux liens\" (\"Christ in bonds\"), emphasizing these restraints—a defining feature that heightened viewers' emotional engagement with Christ's suffering and resignation.\n\nThe work is catalogued as a copy after Luis de Morales, a prominent mid-16th-century Spanish painter renowned for intensely emotional depictions of Christ and the Virgin. Morales specialized in highly detailed renderings of the Passion, employing a narrow color palette while concentrating focus on the face and torso to maximize devotional impact.\n\nHis Ecce Homo compositions proved so popular that numerous copies circulated throughout Spain, serving private devotional practices. While not an original Morales, this Louvre painting demonstrates the widespread influence of his distinctive style and the enduring demand for his emotionally charged religious imagery.",
+              "imageUrl": "images/ecce-homo-louvre-anonyme.JPG"
+            },
+            {
+              "title": "Hieronymus Bosch: The Authentic Version (c. 1475-1480)",
+              "content": "Hieronymus Bosch's authenticated Ecce Homo panel (c. 1475-1480) is a masterwork of Northern Renaissance art, now housed at the Städel Museum in Frankfurt. Unlike devotional close-ups, Bosch creates a detailed, chaotic scene filled with grotesque and symbolic faces.\n\nPilate presents Jesus to a mob of vividly characterized individuals—each face a study in sin, folly, and human corruption. Bosch populates his scene with figures whose exaggerated features and expressions embody the seven deadly sins and the fallen nature of humanity.\n\nThe painting emphasizes the horror of the moment: the crowd that should recognize its savior instead calls for his death. Every face is a portrait of moral blindness. Bosch's genius lies in making the crowd's condemnation universal—these aren't just first-century Romans and Jews, but all of fallen humanity.\n\nThe detail and symbolism reward close study. In Bosch's vision, the Ecce Homo moment becomes a mirror held up to human nature, revealing the capacity for cruelty and rejection of divine truth that exists in every age.",
+              "imageUrl": "images/bosch-actual-ecce_homo-circa1475-1480.png"
+            },
+            {
+              "title": "Bosch or Imitator? The Indianapolis Version",
+              "content": "The Indianapolis Museum of Art possesses another Ecce Homo painting attributed either to Hieronymus Bosch himself or to a skilled imitator—possibly even a student. This attribution question highlights a fascinating aspect of Renaissance workshop practice.\n\nIn Bosch's time, successful artists ran workshops with students and assistants. A \"Bosch\" painting might be entirely by the master, partially by him with student assistance, or done by students working in his distinctive style. Some scholars believe this Indianapolis work is by such a student or follower.\n\nWhat complicates attribution is that this wasn't necessarily fraud or theft—workshop production was standard practice. Students learned by copying the master's compositions and techniques. Successful students might continue painting in their teacher's style long after.\n\nThe painting shares many characteristics with the authenticated Frankfurt version: the crowded composition, grotesque faces, rich symbolism. Whether by Bosch himself or a skilled follower, it demonstrates the power and influence of his distinctive visual language.\n\nSuch attribution questions remind us that Renaissance art wasn't always about individual genius—it involved collaborative workshop production and the transmission of artistic knowledge from master to student.",
+              "imageUrl": "images/heronimus_bosch_ecce-homo.jpg"
+            },
+            {
+              "title": "The Dutch Master Altarpiece Shutter",
+              "content": "This anonymous Dutch Master painting from around 1490 formed one shutter of an altarpiece, creating a fascinating visual dialogue between birth and death, hope and suffering.\n\nThe Ecce Homo scene appeared on one panel, while the corresponding shutter depicted the Adoration of the Magi—Christ as an infant receiving gifts and homage from kings. When the altarpiece was closed, viewers saw the entire arc of Christian salvation history: the infant king and the condemned king, the beginning of Christ's earthly life and his approaching death.\n\nThis juxtaposition wasn't accidental. Medieval and Renaissance altarpieces were designed as complete theological statements. The Adoration shows Christ recognized and worshipped by wise men from distant lands. The Ecce Homo shows Christ rejected by his own people. Together, they pose the question: Who truly sees and who is blind?\n\nThe Dutch style of the period emphasizes careful detail and realistic settings. Unlike Bosch's nightmarish crowds, this artist creates a more restrained scene, focusing on the tragic dignity of the moment. Christ stands on elevated steps, literally above the crowd but about to be brought low.\n\nThe birth-to-death altarpiece structure reminded worshippers that Christ's incarnation was always directed toward this moment—that the manger and the cross are inseparable in Christian theology.",
+              "imageUrl": "images/dutch_master_shutter_of_an_alterpiece_ecce_homo.jpg"
+            },
+            {
+              "title": "Titian: Personal Connections (c. 1558-1560)",
+              "content": "Titian's Ecce Homo brings an unusually personal dimension to the traditional scene. The great Venetian master made striking choices in his portrayal, including portraits of people from his own life.\n\nThe figure of Pilate is modeled after Pietro Aretino, Titian's friend—a choice that adds layers of meaning. Aretino was a notorious satirist and literary figure, famous for his sharp tongue and political influence. By casting his friend as Pilate, Titian perhaps comments on the relationship between power, truth, and moral compromise.\n\nMore touching is the light-haired girl in a white dress near the center—conventionally believed to be Titian's daughter, Lavinia. Her presence in this scene of condemnation and injustice adds emotional weight. What parent wouldn't imagine their child witnessing such horror? Her innocence contrasts sharply with the crowd's cruelty.\n\nTitian's Venetian style emphasizes rich color and dramatic light. His brushwork is looser than earlier Renaissance painters, creating atmosphere and emotion through color relationships rather than precise detail. The result is a scene that feels immediate and psychologically complex.\n\nBy including people from his own life, Titian makes the Ecce Homo moment contemporary and personal. This isn't just ancient history—it's a moral challenge that every generation and every individual must face.",
+              "imageUrl": "images/titian-ecce_homo.jpg"
+            },
+            {
+              "title": "Antonio Ciseri: Architecture and Drama (1871)",
+              "content": "Antonio Ciseri's 1871 Ecce Homo represents a completely different approach to the scene. This Italian painter's work is renowned for its focus on architecture and theatrical use of light—and this painting showcases both brilliantly.\n\nCiseri places us behind Pilate and Jesus, looking out from the governor's palace onto an enormous crowd below. This reverse perspective is psychologically powerful: we stand where Pilate stood, seeing what he saw—the mass of humanity calling for crucifixion.\n\nThe architectural setting is magnificent. Ciseri was a master of perspective and architectural detail. His palace interior features grand columns, classical proportions, and dramatic spaces that emphasize the official, political nature of this moment. This is the machinery of state preparing to execute an innocent man.\n\nThe lighting is theatrical—bright Mediterranean sun outside contrasts with the shadowed interior where we stand. Christ and Pilate are silhouetted against this brightness, making them appear as dark figures against light. This reversal of traditional religious iconography (where Christ is usually the light) emphasizes the moment's irony.\n\nThe crowd below is rendered in careful detail, each figure distinct. We see the full scale of the condemnation—not just a few angry voices but a multitude. Ciseri's composition makes us complicit: we stand in the place of power, looking down on the crowd that represents human judgment.",
+              "imageUrl": "images/ecce_homo_by_antonio_ciseri_.jpg"
+            },
+            {
+              "title": "James Ensor: Modern Interpretation (1891)",
+              "content": "James Ensor's 1891 Ecce Homo represents a radical departure from traditional treatments. Painted just twenty years after Ciseri's work, it demonstrates the enormous shift toward modern art that was about to transform painting completely.\n\nEnsor, a Belgian Symbolist and proto-Expressionist, painted in a style that anticipates 20th-century modernism. His Ecce Homo is characterized by loose, expressive brushwork, simplified forms, and a flattened pictorial space that rejects Renaissance perspective.\n\nThe scene has a carnival-like quality—figures appear mask-like and grotesque, recalling Bosch but in a thoroughly modern visual language. Ensor often used masks and carnival imagery to comment on social hypocrisy and the darkness lurking beneath civilized society's surface.\n\nThe color palette is jarring and unconventional. Instead of the muted earth tones of traditional religious painting or even the rich colors of Titian, Ensor uses bright, almost garish hues that create visual dissonance. This isn't meant to be beautiful—it's meant to disturb.\n\nEnsor's work shows how the Ecce Homo subject could be radically reimagined for a modern sensibility. Where earlier artists emphasized pathos, dignity, or dramatic spectacle, Ensor presents the scene as a nightmare vision of mob violence and social corruption—themes that would resonate powerfully through the violent 20th century.",
+              "imageUrl": "images/james_ensor_ecce_homo.jpg"
+            },
+            {
+              "title": "Caravaggio's Lost and Found Ecce Homo",
+              "content": "In 2021, art historians announced a stunning discovery: a previously unknown Ecce Homo by Caravaggio, painted between 1606-1609. The painting had hung in a private collection for decades, its true authorship unrecognized until careful analysis revealed the master's distinctive hand.\n\nCaravaggio's approach to the Ecce Homo subject would have been characteristically dramatic. He revolutionized religious painting by depicting biblical scenes with stark realism and theatrical lighting—his signature chiaroscuro technique that uses extreme contrasts between light and dark.\n\nUnlike the idealized figures of earlier Renaissance art, Caravaggio painted people who looked like real Romans, real soldiers, real suffering human beings. His Christ wouldn't be serenely beautiful but genuinely battered and exhausted. His crowds would be rough, ordinary people—not symbolic types but individuals.\n\nThe discovery and authentication of this painting caused tremendous excitement in the art world. It's now exhibited at the Museo del Prado in Madrid, where visitors can see Caravaggio's intense, realistic interpretation of this moment.\n\nFor those interested in exploring this remarkable work further, the Prado offers detailed information about the painting's discovery, authentication, and significance at: https://www.museodelprado.es/en/whats-on/exhibition/the-lost-caravaggio-the-ecce-homo-unveiled/\n\nThe painting represents not just an art historical treasure but another link in the centuries-long chain of artists grappling with Pilate's question: What do we see when we look at this man?",
+              "imageUrl": "images/ecce-homo-louvre-anonyme.JPG"
+            },
+            {
+              "title": "Conclusion: The Enduring Power of 'Behold the Man'",
+              "content": "From anonymous Spanish devotional paintings to Bosch's grotesque crowds, from Titian's personal portraits to Ciseri's architectural drama, from Ensor's modernist nightmare to Caravaggio's lost-and-found masterwork—artists have returned to the Ecce Homo scene for over five centuries.\n\nWhat makes this moment so compelling? Perhaps it's the layered ironies: a Roman governor unknowingly presenting the Son of God; a crowd rejecting the very salvation they sought; power and weakness inverted; the human and divine meeting in one battered figure.\n\nOr perhaps it's the moral challenge the scene poses. As viewers, we must ask ourselves: Would we have been in that crowd? Would we have called for crucifixion? Do we, in our own time, recognize truth and innocence when we see them—or do we, like Pilate, wash our hands?\n\nEach artist's interpretation reflects not just personal style but the concerns of their age. Medieval and Renaissance artists emphasized Christ's suffering and dignity. Bosch saw human depravity. Titian brought it home to his own family. Ciseri made it architectural and theatrical. Ensor transformed it into modern social critique. Caravaggio made it viscerally real.\n\nThe phrase \"Ecce Homo\" has entered our language beyond its religious context. It speaks to any moment when humanity's capacity for cruelty and blindness is revealed, when innocence stands accused, when we must choose between truth and expedience.\n\nPilate's words echo through history: \"Behold the man.\" Artists help us truly see.",
+              "imageUrl": "images/bosch-actual-ecce_homo-circa1475-1480.png"
+            }
+          ]
         }
       ]
     },
